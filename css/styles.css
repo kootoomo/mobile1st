@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+}
+section {
+    height: 1020px;
+    width:480px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    overflow-y: hidden;  
+}
+section:hover {
+    overflow-y: scroll;
+}
+header {
+    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/* .menu {
+        background: #F7f7f7;
+        padding:0.5em;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    } */
+
+main {
+    background: #F7F7F7;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    min-height: 100px;
+    margin-top: -4px;
+    padding-top: 10px;
+}
+.buttons {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    height: 110px;
+    padding: 5px;
+    border-radius: 10px;
+    background: white;
+    margin: 5px;
+    box-shadow: 5px 5px 18px #dddddd;
+    /* box-shadow: 2px 0px 20px rgba(#C8C8C8, 16%); */
+}
+.hospitals {
+    padding: 15px;
+    padding-top: 30px;
+}
+.hospitals h2 {
+    font-size: 1.5rem;
+    color: #3E3049;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.hospital {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 18px #dddddd;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+.info {
+    flex: 1;
+    line-height: 1.5;
+}
+.title {
+    font-weight: bold;
+}
+.location {
+    color:#665e77;
+}
+.beds {
+    color:#910679;
+}
+.beds-orange {
+    color:#F79A1C;
+}
+.beds-blue {
+    color:rgb(21, 172, 177);
+}
+.beds-violet {
+    color:rgb(92, 19, 126);
+}
